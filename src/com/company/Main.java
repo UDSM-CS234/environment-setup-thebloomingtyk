@@ -11,8 +11,6 @@ public class Main {
 
         finalPosition = 0.5 * gravity *fallingTime * fallingTime + initialPosition * fallingTime + initialPosition;
 
-        System.out.println(finalPosition);
-
         System.out.println("The object's position after " + fallingTime +
                 " seconds is " + finalPosition + " m.");
     }
